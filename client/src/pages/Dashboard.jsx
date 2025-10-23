@@ -17,7 +17,7 @@ import pdfToText from 'react-pdftotext'
 import Loading from '../components/Loading';
 
 const Dashboard = () => {
-  const { bgCol, user, backendUrl, token, allResume, fetchAllResume } =
+  const { bgCol, user, backendUrl, token, allResume, fetchAllResume, } =
     useContext(AppContext);
   const [showCreateResume, setShowCreateResume] = useState(false);
   const [showUploadResume, setShowUploadResume] = useState(false);

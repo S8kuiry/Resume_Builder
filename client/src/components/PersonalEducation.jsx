@@ -73,7 +73,7 @@ const PersonalEducation = ({ data, onChange }) => {
                                     value={itm.degree}
                                     required
                                     onChange={(e) => updateEducation(index, "degree", e.target.value)}
-                                    placeholder="Degree or Certificate"
+                                    placeholder="Degree (e.g. Bachelor's,Masters)"
                                     className="text-gray-900 text-sm w-[48%] border border-gray-400 rounded-lg py-3 px-2"
                                 />
                             </div>
@@ -100,7 +100,7 @@ const PersonalEducation = ({ data, onChange }) => {
                                 <input
                                     value={itm.gpa}
                                     onChange={(e) => updateEducation(index, "gpa", e.target.value)}
-                                    placeholder="GPA or Percentage(Optional)"
+                                    placeholder="GPA(Optional)"
                                     className="text-gray-900 text-sm w-[48%] border border-gray-400 rounded-lg py-3 px-2"
                                 />
                             </div>
