@@ -1,6 +1,6 @@
 # 🧠 AI Resume Builder
 
-[Live Demo](https://resume-builder-jet-two.vercel.app/)
+[Live Demo](https://resume-builder-gwd0mfa2k-subharthys-projects.vercel.app/)
 
 AI Resume Builder is a modern full-stack web application that allows users to create professional, personalized resumes in seconds using artificial intelligence. It provides dynamic templates, secure authentication, and seamless PDF upload functionality — all designed to simplify the resume creation process.
 
