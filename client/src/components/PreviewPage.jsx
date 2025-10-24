@@ -72,13 +72,13 @@ const PreviewPage = () => {
   return (
     <div className=" h-screen overflow-y-scroll w-full bg-gradient-to-br from-teal-400 via-teal-200/40 to-teal-400 absolute bottom-0 flex flex-col items-center">
       
-      {(user._id === resumeData.userId) && <button
+      {/*(user._id === resumeData.userId) && <button
           onClick={() => navigate('/app')}
           className="absolute top-4 right-5 flex items-center justify-center text-sm gap-2 text-teal-800 cursor-pointer hover:scale-105 transition-all duration-300"
         >
           <ArrowLeft className="size-4" />
           Go to Home Page
-        </button>}
+        </button>*/}
      
       <div className=" max-w-xl sm:max-w-3xl mx-auto py-10 overflow-y-scroll">
         <Preview
